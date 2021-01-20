@@ -1,0 +1,78 @@
+{
+    "movementSpeed": 0.4,
+    "lang": "en_us",
+    "clothes": [{
+            "name": "empty_pants",
+            "price": 0,
+            "article": 1,
+            "path": "Assets/Textures/Entity/Clothes/empty"
+        },
+        {
+            "name": "empty_shirt",
+            "price": 0,
+            "article": 2,
+            "path": "Assets/Textures/Entity/Clothes/empty"
+        },
+        {
+            "name": "empty_hat",
+            "price": 0,
+            "article": 3,
+            "path": "Assets/Textures/Entity/Clothes/empty"
+        },
+        {
+            "name": "tux_shirt",
+            "price": 15,
+            "article": 2,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "tux_pants",
+            "price": 15,
+            "article": 1,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "hoodie",
+            "price": 5,
+            "article": 2,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "cap",
+            "price": 2,
+            "article": 3,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "jeans",
+            "price": 5,
+            "article": 1,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "undies",
+            "price": 1,
+            "article": 1,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "cool_jacket",
+            "price": 20,
+            "article": 2,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        },
+        {
+            "name": "fedora",
+            "price": 7,
+            "article": 3,
+            "path": "Assets/Textures/Entity/Clothes/*"
+        }
+    ],
+    "sets": [{
+        "name": "tux",
+        "clothes": [
+            "tux_shirt",
+            "tux_pants"
+        ]
+    }]
+}

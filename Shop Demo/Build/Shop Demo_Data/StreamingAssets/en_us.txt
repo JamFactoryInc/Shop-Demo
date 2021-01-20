@@ -1,0 +1,1 @@
+tux_pants:Tux Pants;tux_shirt:Tux Shirt;hoodie:Hoodie;cap:cap;jeans:Jeans;empty:empty;undies:Undies;cool_jacket:Cool Jacket;fedora:Fedora;

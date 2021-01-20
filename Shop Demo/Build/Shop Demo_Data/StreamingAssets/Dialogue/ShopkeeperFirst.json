@@ -1,0 +1,18 @@
+{
+    "type": "once",
+    "prompt": "",
+    "text": "Hello! Welcome to the shop.",
+    "responses": [{
+        "type": "",
+        "prompt": "Hello",
+        "text": "Take what you need, and since you're my only customer, use the mannequins to keep your outfits safe. Go through the door to restock my inventory.",
+        "responses": [{
+            "type": "",
+            "prompt": "Thanks",
+            "text": "",
+            "responses": [],
+            "action": "Exit"
+        }],
+        "action": "ReadFirstResponse"
+    }]
+}

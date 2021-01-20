@@ -1,0 +1,29 @@
+{
+    "type": "once",
+    "prompt": "",
+    "text": "Welcome back, dear. What can I help you with?",
+    "responses": [{
+            "prompt": "Nevermind",
+            "text": "Take what you need, and since you're my only customer, use the mannequins to keep your outfits safe",
+            "action": "Exit"
+        },
+        {
+            "prompt": "Sell",
+            "text": "What can I take off your hands?",
+            "action": "ReadSecondResponse",
+            "responses": [{
+                    "prompt": "Hat",
+                    "action": "SellHat"
+                },
+                {
+                    "prompt": "Shirt",
+                    "action": "SellShirt"
+                },
+                {
+                    "prompt": "Pants",
+                    "action": "SellPants"
+                }
+            ]
+        }
+    ]
+}
